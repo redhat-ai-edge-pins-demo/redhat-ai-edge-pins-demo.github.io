@@ -28,6 +28,7 @@ twitter_username: jekyllrb
 github_username:  bdherouville
 
 # Build settings
+
 theme: jekyll-github-metadata
 plugins:
   - jekyll-feed
