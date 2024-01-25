@@ -29,9 +29,10 @@ github_username:  bdherouville
 
 # Build settings
 
-theme: jekyll-github-metadata
+theme: minima
 plugins:
-  - jekyll-feed
+   - "jekyll-github-metadata"
+   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
