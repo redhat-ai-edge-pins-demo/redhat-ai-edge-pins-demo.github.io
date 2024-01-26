@@ -6,8 +6,6 @@ description: "Revolutionizing Nut Quality Control with Edge Computer Vision usin
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
 
-# Rosa Deployment Instructions 
-
 
 ![20240106111312](https://i.imgur.com/AGBg7uY.jpg)
 
