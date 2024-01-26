@@ -6,11 +6,13 @@ description: "Revolutionizing Nut Quality Control with Edge Computer Vision usin
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
 
+![20240106111312](https://i.imgur.com/AGBg7uY.jpg)
+
 ## Prerequisites
 * Ensure cluster is updated to 4.13
 * Change worker node count to 4 on a minimal deployment. 
   
-![![20240106142502](httpsi.imgur.comkMdBwSo.png)](https://i.imgur.com/jKjN4Ev.png)
+![![20240106142502](httpsi.imgur.comkMdBwSo.png)
 
 
 ## SSH into RHEL jumpbox
