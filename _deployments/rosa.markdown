@@ -1,6 +1,6 @@
 ---
 # This is the Front Matter section where you can set variables used by Jekyll
-layout: home
+layout: post
 title: "Rosa Deployment Instructions "
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
