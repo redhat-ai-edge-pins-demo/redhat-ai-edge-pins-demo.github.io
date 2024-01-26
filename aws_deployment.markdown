@@ -1,7 +1,7 @@
 ---
 # This is the Front Matter section where you can set variables used by Jekyll
 layout: home
-title: "Edge AI in Quality Control"
+title: "AWS Blank Environment Instructions"
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
