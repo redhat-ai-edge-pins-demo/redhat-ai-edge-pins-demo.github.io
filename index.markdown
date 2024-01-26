@@ -29,7 +29,9 @@ Discover how we deploy our AI models using Microshift and manage workloads effic
 
 <!-- OpenShift Deployment Documentation -->
 ### Documentation for OpenShift Deployments
-Check our detailed documentation for deploying on OpenShift. [AWS Instructions](/docs/aws-deployment.md), [Rosa Instructions](/docs/rosa-deployment.md)
+Check our detailed documentation for deploying on OpenShift. 
+* [AWS Instructions](/aws_deployment.markdown)
+* [Rosa Deployment Instructions](/rosa.markdown)
 
 <!-- Demo Section -->
 ### See Our Technology in Action
