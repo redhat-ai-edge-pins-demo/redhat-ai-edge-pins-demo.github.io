@@ -21,7 +21,7 @@
 title: Edge Computer Vision for Quality Control Documentation
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This project focuses on developing a cutting-edge computer vision program to identify defects on nuts, specifically black marks representing impurities. Utilizing the YOLO V5 model for image processing, the project integrates Microshift for seamless deployment across various platforms. In addition, the Ansible automation platform is employed to automate tasks like edge image creation and deployment on OpenShift, enhancing the project's efficiency and scalability. This technology is crucial for quality control in industries like food production and manufacturing.
+  This project focuses on developing a cutting-edge computer vision program to identify defects on nuts, specifically black marks representing impurities.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://redhat-ai-edge-pins-demo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -33,6 +33,7 @@ theme: minima
 plugins:
    - "jekyll-github-metadata"
    - jekyll-feed
+   - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
