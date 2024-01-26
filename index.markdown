@@ -3,12 +3,12 @@
 layout: home
 title: "Edge AI in Quality Control"
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
-image: /path/to/hero-image.jpg  # Path to a hero image (optional)
+image: /path/to/redhat-image.jpg  # Path to a redhat image (optional)
 ---
 
 <!-- Hero Section -->
 ## Welcome to Edge AI in Quality Control
-![Hero Image](/path/to/hero-image.jpg)  <!-- Path to the same or different hero image -->
+![Red Hat](/path/to/redhat-image.jpg)  <!-- Path to the same or different Red Hat image -->
 Revolutionizing the quality control process in the food industry with cutting-edge AI technology.
 
 <!-- Project Overview -->
