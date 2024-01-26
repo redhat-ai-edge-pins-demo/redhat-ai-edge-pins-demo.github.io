@@ -1,13 +1,10 @@
 ---
 # This is the Front Matter section where you can set variables used by Jekyll
 layout: post
-title: "Rosa Deployment Instructions "
+title: "Rosa Deployment Instructions"
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
-
-
-![20240106111312](https://i.imgur.com/AGBg7uY.jpg)
 
 ## Prerequisites
 * Ensure cluster is updated to 4.13
