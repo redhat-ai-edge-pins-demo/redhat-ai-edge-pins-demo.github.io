@@ -12,7 +12,7 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 * Ensure cluster is updated to 4.13
 * Change worker node count to 4 on a minimal deployment. 
   
-![![20240106142502](httpsi.imgur.comkMdBwSo.png)
+![20240106142502](httpsi.imgur.comkMdBwSo.png)
 
 
 ## SSH into RHEL jumpbox
