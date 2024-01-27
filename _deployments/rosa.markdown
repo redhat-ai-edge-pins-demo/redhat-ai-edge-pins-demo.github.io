@@ -1,5 +1,4 @@
 ---
-# This is the Front Matter section where you can set variables used by Jekyll
 layout: post
 title: "Rosa Deployment Instructions"
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
@@ -12,27 +11,25 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 * Ensure cluster is updated to 4.13
 * Change worker node count to 4 on a minimal deployment. 
   
-![20240106142502](httpsi.imgur.comkMdBwSo.png)
-
+![20240106142502](https://i.imgur.com/kMdBwSo.png)
 
 ## SSH into RHEL jumpbox
-```
+{% highlight bash %}
 ssh  cloud-user@<jumpbox_ip>
-```
+{% endhighlight %}
 
-## Optioanl run the script below to install dependencies
-```
+## Optional run the script below to install dependencies
+{% highlight bash %}
 curl -OL https://raw.githubusercontent.com/tosin2013/redhat-edge-ai-industrial-demo-infra/main/dev-box.sh
 chmod +x dev-box.sh
 ./dev-box.sh
-```
+{% endhighlight %}
 
 ## Configure ArgoCD 
-```
+{% highlight bash %}
 cd $HOME/redhat-edge-ai-industrial-demo-infra
 oc create -k clusters/overlays/rosa
-```
-
+{% endhighlight %}
 
 ## Run Tekton Pipeline
 * [Run tekton pipeline](run-tekton-pipeline.md)
