@@ -13,5 +13,5 @@ Welcome to our deployment types page. Here you can find instructions for deployi
 Below is a list of deployment Types we've put together:
 
 {% for post in site.deployments %}
-  - [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) <!-- {{ post.excerpt }} -->
+  - [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) 
 {% endfor %}
