@@ -6,7 +6,6 @@ description: "Revolutionizing Nut Quality Control with Edge Computer Vision usin
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
 
-
 ## Prerequisites
 * RHEL 8.x jumpbox that is registred with Red Hat
 * Review and run the [openshift-ai-workload.sh](https://gist.github.com/tosin2013/76e47de3f32de4486ab4699c21b2188e)
