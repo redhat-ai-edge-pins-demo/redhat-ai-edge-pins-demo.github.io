@@ -33,8 +33,6 @@ chmod +x run_pipeline.sh
 
 ./run_pipeline.sh $(oc get route -n quay | grep registry-quay | awk '{print $2}' | head -1)/admin/redhat-edge-ai-industrial-demo
 {% endhighlight %}
-o
-
 
 ## Source code
 **Tekton Pipelines**
