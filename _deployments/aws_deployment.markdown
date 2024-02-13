@@ -25,6 +25,9 @@ chmod +x openshift-ai-workload.sh
 ./openshift-ai-workload.sh g4dn.2xlarge # with GPU
 {% endhighlight %}
 
+## Configure SSL for OpenShift Console
+[Configuring SSL for OpenShift Console](https://docs.openshift.com/container-platform/4.14/security/certificates/replacing-default-ingress-certificate.html)
+
 ## Configure jumpbox for deployment
 {% highlight bash %}
 curl -OL https://raw.githubusercontent.com/tosin2013/redhat-edge-ai-industrial-demo-infra/main/dev-box.sh
