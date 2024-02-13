@@ -48,6 +48,7 @@ cd $HOME/redhat-edge-ai-industrial-demo-infra
 oc create -k clusters/overlays/aws-gpu
 {% endhighlight %}
 
-## Post Steps Configure SSL for OpenShift Console
+## Ensure the ArgoCD application is in sync
+![20240213165739](https://i.imgur.com/0vdu0mx.jpg)
 
 [Back to Homepage](/)
