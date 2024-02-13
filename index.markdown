@@ -33,6 +33,10 @@ Check our detailed documentation for deploying on OpenShift.
 * [AWS Instructions](deployments/aws_deployment)
 * [Rosa Deployment Instructions](deployments/rosa)
 
+<!-- Tekton Pipeline -->
+### Tekton Pipeline for CI/CD
+We use Tekton Pipelines for continuous integration and continuous deployment. [Run Pipeline](/deployments/run_tekton_pipeline)
+
 <!-- Demo Section -->
 ### See Our Technology in Action
 [Watch the Demo Video](/path/to/demo-video) or view the [Image Gallery](/image-gallery)
