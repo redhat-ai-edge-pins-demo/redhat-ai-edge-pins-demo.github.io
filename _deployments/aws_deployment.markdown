@@ -18,9 +18,11 @@ export aws_access_key_id="YOUR_ACCESS_KEY_ID"
 export aws_secret_access_key="YOUR_SECRET_ACCESS_KEY"
 export aws_region="YOUR_AWS_REGION"
 
-curl -OL https://gist.githubusercontent.com/tosin2013/76e47de3f32de4486ab4699c21b2188e/raw/1c16543b4edae4804f73966ca4e40822e0bbfa95/openshift-ai-workload.sh
+curl -OL https://gist.githubusercontent.com/tosin2013/76e47de3f32de4486ab4699c21b2188e/raw/959ae5dd2117edf124e4531cfae5216c722a3358/openshift-ai-workload.sh
 chmod +x openshift-ai-workload.sh
-./openshift-ai-workload.sh
+./openshift-ai-workload.sh m6i.4xlarge # without GPU
+
+./openshift-ai-workload.sh g4dn.2xlarge # with GPU
 {% endhighlight %}
 
 ## Configure jumpbox for deployment
@@ -43,5 +45,6 @@ cd $HOME/redhat-edge-ai-industrial-demo-infra
 oc create -k clusters/overlays/aws-gpu
 {% endhighlight %}
 
+## Post Steps Configure SSL for OpenShift Console
 
 [Back to Homepage](/)
