@@ -50,6 +50,7 @@ chmod +x dev-box.sh
 curl -OL https://raw.githubusercontent.com/tosin2013/openshift-demos/master/quick-scripts/deploy-gitea.sh
 chmod +x deploy-gitea.sh
 ./deploy-gitea.sh
+{% endhighlight %}
 
 ### Configure Gitea
 **Click on route in OpenShift Console**
