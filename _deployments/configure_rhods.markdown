@@ -10,17 +10,14 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ![20240106134547](https://i.imgur.com/ssgQacx.png)
 
 ## Prerequisites
-* Create a `redhat-edge-ai-industrial-demo` repository on quay.io or self hosted quay on openshift
 * Configure Secret for quay regisgtry -> use this link as reference [configure-pipeline-secret.sh](https://raw.githubusercontent.com/tosin2013/redhat-edge-ai-industrial-demo-infra/main/hack/configure-pipeline-secret.sh)
 * If you ran the dev-env setup, you can call the script below to configure the secret
 {% highlight bash %}
  ./hack/configure-pipeline-secret.sh
-{% endhighlight %}qua
+{% endhighlight %}
 
 
 ## Run pipeline against quay.io
-* `tkn` cli is required to run the pipeline.
-  
 {% highlight bash %}
 curl -OL https://raw.githubusercontent.com/tosin2013/redhat-edge-ai-industrial-demo-infra/main/hack/run_pipeline.sh
 chmod +x run_pipeline.sh
