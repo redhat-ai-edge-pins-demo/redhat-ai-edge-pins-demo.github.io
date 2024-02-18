@@ -20,8 +20,11 @@ Using state-of-the-art computer vision and AI technology, we've developed a syst
 We utilize Red Hat OpenShift Data Science for training our AI models. [Learn More](/model-creation)
 
 <!-- Jupyter Lab Overview -->
+### Configure Red Hat OpenShift Data Science
+Explore how we configure Red Hat OpenShift Data Science for our AI model training. [Read More](deployments/configure_rhods)
+
 ### Jupyter Lab for Model Training
-Download our Jupyter Lab notebook and explore how we train our AI models. [Download Notebook](/Train_Nut.ipynb)
+Download our Jupyter Lab notebook and explore how we train our AI models. [Download Notebook](deployments/run_rhods_notebooks)
 
 <!-- Workload Container & Microshift Deployment -->
 ### Deployment and Orchestration
