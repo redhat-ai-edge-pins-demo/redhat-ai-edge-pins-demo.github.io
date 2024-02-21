@@ -1,7 +1,7 @@
 ---
 # This is the Front Matter section where you can set variables used by Jekyll
 layout: post
-title: "Deploy Application on Microshift"
+title: "Configure DevSpaces for Ansible Automation Platform Configuration" 
 description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
@@ -18,5 +18,4 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 
 ![20240221112251](https://i.imgur.com/PaUXYLY.png)
 
-### Optional Install OpenShift Devspaces
-* Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](../../deployments/devspaces_configuration)
+### Optional Install De
