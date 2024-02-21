@@ -72,3 +72,5 @@ Optional: Add GPU information
 
 ## Final View of the pipeline
 ![20240220142735](https://i.imgur.com/D4oECVh.png)
+
+## Start pipeline run
