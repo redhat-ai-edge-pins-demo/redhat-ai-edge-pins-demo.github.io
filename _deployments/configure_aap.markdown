@@ -66,7 +66,7 @@ ansible-playbook push_to_controller.yaml -e "ee_name_var=edge.microshift" -e "se
 ![20240221131831](https://i.imgur.com/EIdnoD7.png)
 **Update the collections using the items below**
 ![20240221131851](https://i.imgur.com/fxecD56.png)
-![20240221131933](https://i.imgur.com/a2qhixe.png)
+![20240221133805](https://i.imgur.com/daXA6ma.png)
 ```
 ---
 collections:
@@ -76,13 +76,14 @@ collections:
   - name: infra.ah_configuration
   - name: containers.podman
   - name: redhat_cop.controller_configuration
+  - name: amazon.aws
 ```
 **sync the Community Repository under the Repositories workload**
 ![20240221132034](https://i.imgur.com/bG4Krds.png)
 ![20240221132256](https://i.imgur.com/WlG39Xa.png)
 ![20240221132319](https://i.imgur.com/gX2Advc.png)
 **Validate Collections have been populated**
-![20240221132620](https://i.imgur.com/lPeNMfG.png)
+![20240221134620](https://i.imgur.com/3Q21CQq.png)
 
 ## Deploy our application on Microshift. 
 [Read More](../../deployments/aap_microshift_deployment)
