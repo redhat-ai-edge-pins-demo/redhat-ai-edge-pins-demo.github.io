@@ -11,3 +11,9 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ## Prerequisites
 * AAP has been deployed on OpenShift
 * AAP has been configured for Microshift deployments on AWS
+* Automation Hub has synced collections
+
+![20240221125316](https://i.imgur.com/ClJ396a.png)
+
+## Run AWS Execution Environment Builder
+![20240221131150](https://i.imgur.com/gR9mAJo.png)
