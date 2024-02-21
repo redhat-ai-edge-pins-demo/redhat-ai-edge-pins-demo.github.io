@@ -20,3 +20,6 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 
 ### Optional Install OpenShift Devspaces
 * Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](../../deployments/devspaces_configuration)
+
+
+

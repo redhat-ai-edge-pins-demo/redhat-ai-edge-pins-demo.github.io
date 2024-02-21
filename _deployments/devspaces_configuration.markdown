@@ -6,16 +6,29 @@ description: "Revolutionizing Nut Quality Control with Edge Computer Vision usin
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
 
-# Deploy Application on Microshift
+# Configure DevSpaces for Ansible Automation Platform Configuration
 
-## Prerequisites
-* AAP has been deployed on OpenShift
+**Install the OpenShift DevSpaces Operator**
+```
+$  oc apply -k https://github.com/tosin2013/sno-quickstarts/gitops/cluster-config/devspaces/operator/overlays/stable
+```
 
-![20240221111710](https://i.imgur.com/Qr1GB97.png)
-![20240221111734](https://i.imgur.com/2B5Wckz.png)
-![20240221111755](https://i.imgur.com/cgMvq8u.jpeg)
-![20240221112012](https://i.imgur.com/OUymygl.png)
+**Install the OpenShift DevSpaces Instance**
+```
+$ oc apply -k https://github.com/tosin2013/sno-quickstarts/gitops/cluster-config/devspaces/instance/overlay/default
 
-![20240221112251](https://i.imgur.com/PaUXYLY.png)
+```
 
-### Optional Install De
+**Wait for pods to load**
+![20240221113242](https://i.imgur.com/XhKDPvh.png)
+
+**Access OpenShift Devspaces Route**
+![20240221113449](https://i.imgur.com/EV959xb.png)
+
+![20240221113628](https://i.imgur.com/D1O1D3z.png)
+
+**Load the ee_definition_config repo into devspaces**
+* https://github.com/tosin2013/ee_definition_config
+  ![20240221113742](https://i.imgur.com/uEWV9fE.png)
+
+  ![20240221113930](https://i.imgur.com/Q8fgCUy.png)
