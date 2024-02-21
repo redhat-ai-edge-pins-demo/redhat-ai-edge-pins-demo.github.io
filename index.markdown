@@ -42,8 +42,8 @@ We use Tekton Pipelines for continuous integration and continuous deployment. [R
 
 <!-- Microshift Deployment -->
 ### Microshift Deployment Instructions
-* Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](deployments/devspaces_configuration)
-Deploy our application on Microshift. [Read More](deployments/aap_microshift_deployment)
+* Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](deployments/devspaces_configuration)  
+* Deploy our application on Microshift. [Read More](deployments/aap_microshift_deployment)
 
 <!-- Demo Section 
 ### See Our Technology in Action
