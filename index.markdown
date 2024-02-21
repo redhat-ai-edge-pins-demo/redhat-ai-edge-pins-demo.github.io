@@ -40,13 +40,16 @@ Check our detailed documentation for deploying on OpenShift.
 ### Tekton Pipeline for CI/CD
 We use Tekton Pipelines for continuous integration and continuous deployment. [Run Pipeline](/deployments/run_tekton_pipeline)
 
-<!-- Demo Section -->
-### See Our Technology in Action
-[Watch the Demo Video](/path/to/demo-video) or view the [Image Gallery](/image-gallery)
+<!-- Microshift Deployment -->
+Deploy our application on Microshift. [Read More](/deployments/aap_microshift_deployment)
 
-<!-- Latest Blog Posts -->
+<!-- Demo Section 
+### See Our Technology in Action
+[Watch the Demo Video](/path/to/demo-video) or view the [Image Gallery](/image-gallery)-->
+
+<!-- Latest Blog Posts
 ### Latest from Our Blog
-Here you can list your latest blog posts. Jekyll can automatically populate this section from your posts.
+Here you can list your latest blog posts. Jekyll can automatically populate this section from your posts. -->
 
 <!-- Footer -->
 #### Stay Connected

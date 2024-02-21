@@ -6,7 +6,7 @@ description: "Revolutionizing Nut Quality Control with Edge Computer Vision usin
 image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 ---
 
-# Configure Red Hat OpenShift Data Science - WIP
+# Configure Red Hat OpenShift Data Science
 
 ## Prerequisites
 * OpenShift Data Science Operator installed
