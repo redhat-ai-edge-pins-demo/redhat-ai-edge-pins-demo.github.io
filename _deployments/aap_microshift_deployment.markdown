@@ -22,4 +22,10 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 * Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](../../deployments/devspaces_configuration)
 
 
+## Configure AAP
+If you did not install the OpenShift Devspaces Operator, you can configure the AAP manually from your laptop using the [ee_definition_config](https://github.com/tosin2013/ee_definition_config) repo.
 
+## Requirements install collections
+{% highlight bash %}
+ansible-galaxy collection install  -r collections/requirements.yml 
+{% endhighlight %}

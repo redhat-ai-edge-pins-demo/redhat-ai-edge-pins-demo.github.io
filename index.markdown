@@ -41,7 +41,8 @@ Check our detailed documentation for deploying on OpenShift.
 We use Tekton Pipelines for continuous integration and continuous deployment. [Run Pipeline](/deployments/run_tekton_pipeline)
 
 <!-- Microshift Deployment -->
-Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](/deployments/devspaces_configuration)
+### Microshift Deployment Instructions
+* Configure DevSpaces for Ansible Automation Platform Configuration. [Read More](/deployments/devspaces_configuration)
 Deploy our application on Microshift. [Read More](/deployments/aap_microshift_deployment)
 
 <!-- Demo Section 
