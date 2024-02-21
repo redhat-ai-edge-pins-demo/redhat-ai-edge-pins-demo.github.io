@@ -74,3 +74,10 @@ Optional: Add GPU information
 ![20240220142735](https://i.imgur.com/D4oECVh.png)
 
 ## Start pipeline run
+![20240221104217](https://i.imgur.com/g1irJy4.png)
+You should see this screen on scuessful run
+![20240221104236](https://i.imgur.com/VPMwewb.png)
+
+![20240221104730](https://i.imgur.com/O2Fyj5O.png)
+
+![20240221104743](https://i.imgur.com/snizZiw.png)
