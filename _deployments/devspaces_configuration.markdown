@@ -33,5 +33,5 @@ $ oc apply -k https://github.com/tosin2013/sno-quickstarts/gitops/cluster-config
   ![20240221113930](https://i.imgur.com/Q8fgCUy.png)
 
 
-## Deploy our application on Microshift.
- [Read More](deployments/aap_microshift_deployment)
+## Configure Ansible Automation Platform
+ [Read More](../../deployments/configure_aap)
