@@ -41,6 +41,10 @@ image: /path/to/hero-image.jpg  # Path to a hero image (optional)
 
 ![20240215153610](https://i.imgur.com/wGcCXrj.png)
 
+**Configure Pipeline Server**
+![20240220135935](https://i.imgur.com/UePuw81.png)
+![20240220140113](https://i.imgur.com/Jr2CQOg.png)
+
 **Create Notebooks in workbench**  
 *Git URL:* https://github.com/tosin2013/redhat-pins-ai-demo.git
 ![20240215160517](https://i.imgur.com/C1eUdh0.png)
