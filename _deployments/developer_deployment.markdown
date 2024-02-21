@@ -84,4 +84,5 @@ $ oc create -k clusters/overlays/aws
 1. [Run tekton pipeline](../../deployments/run_tekton_pipeline) - The Tekton pipeline is used to build the container image for the application.
 2. [Configure rhods](../../deployments/configure_rhods) - The Red Hat OpenShift Data Science environment is used to train the AI model.
 3. [Run rhods Notebooks](../../deployments/run_rhods_notebooks) - Run notebooks to train the AI model. 
+
 [Back to Homepage](/)

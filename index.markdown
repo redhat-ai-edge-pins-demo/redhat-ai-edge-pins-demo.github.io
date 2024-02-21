@@ -16,15 +16,14 @@ Revolutionizing the quality control process in the food industry with cutting-ed
 Using state-of-the-art computer vision and AI technology, we've developed a system that accurately detects defects in nuts, ensuring quality and safety in food production.
 
 <!-- Model Creation with OpenShift AI -->
-### Model Creation with OpenShift AI
-We utilize Red Hat OpenShift Data Science for training our AI models. [Learn More](/model-creation)
 
 <!-- Jupyter Lab Overview -->
 ### Configure Red Hat OpenShift Data Science
 Explore how we configure Red Hat OpenShift Data Science for our AI model training. [Read More](deployments/configure_rhods)
 
 ### Jupyter Lab for Model Training
-Download our Jupyter Lab notebook and explore how we train our AI models. [Download Notebook](deployments/run_rhods_notebooks)
+Download our Jupyter Lab notebook and explore how we train our AI models.
+[Run notebook and deploy Pipeline](deployments/run_rhods_notebooks)
 
 <!-- Workload Container & Microshift Deployment -->
 ### Deployment and Orchestration
