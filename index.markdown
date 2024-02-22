@@ -1,19 +1,23 @@
 ---
 # This is the Front Matter section where you can set variables used by Jekyll
 layout: home
-title: "Edge AI in Quality Control"
-description: "Revolutionizing Nut Quality Control with Edge Computer Vision using YOLO V5 and Microshift"
+title: "Red Hat AI Model Deployment Workflow from Core to Edge"
+description: "The goal of this architecture is to streamline the process from model development to deployment, particularly in edge computing scenarios where models need to be run closer to data sources for faster processing."
 image: /path/to/redhat-image.jpg  # Path to a redhat image (optional)
 ---
 
 <!-- Hero Section -->
-## Welcome to Edge AI in Quality Control
-![Red Hat](/path/to/redhat-image.jpg)  <!-- Path to the same or different Red Hat image -->
-Revolutionizing the quality control process in the food industry with cutting-edge AI technology.
+# Red Hat AI Model Deployment Workflow from Core to Edge
+
+![20240222140117](https://i.imgur.com/41zi47h.png)
 
 <!-- Project Overview -->
-### Project Overview
-Using state-of-the-art computer vision and AI technology, we've developed a system that accurately detects defects in nuts, ensuring quality and safety in food production.
+## Project Overview
+Using state-of-the-art computer vision and AI technology, we've developed a system that accurately detects defects in nuts as an example us case.
+
+## Archetecture Overview
+The goal of this architecture is to streamline the process from model development to deployment, particularly in edge computing scenarios where models need to be run closer to data sources for faster processing. It emphasizes continuous integration and deployment (CI/CD) practices, automation, and the use of containerization for easy scalability and management. The model performance monitoring and training data collection at the bottom suggests that the system also includes feedback loops for continuous improvement of the AI models.
+![20240222135930](https://i.imgur.com/cDFN15c.png)
 
 <!-- Model Creation with OpenShift AI -->
 
