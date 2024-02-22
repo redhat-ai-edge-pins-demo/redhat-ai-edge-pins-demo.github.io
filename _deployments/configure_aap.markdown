@@ -43,11 +43,6 @@ ansible-playbook push_to_controller.yaml -e "ee_name_var=ansible-aws-roles" -e "
 {% endhighlight %}
 ![20240221125007](https://i.imgur.com/7kAxN3V.png)
 
-## Configure Controller for Microshift Deployments on AWS
-{% highlight bash %}
-ansible-playbook  microshift-ansible-aws-roles.yaml  -e "@secret-vars-microshift-ansible-aws-roles.yml" -e "@projects/ansible-aws-roles/microshift-ansible-aws-vars.yaml"  -vvv
-{% endhighlight %}
-![20240221124855](https://i.imgur.com/3PUdxRK.png)
 
 ## Load Execution Environment for edge.microshft collection
 {% highlight bash %}
@@ -57,6 +52,11 @@ ansible-playbook push_to_controller.yaml -e "ee_name_var=edge.microshift" -e "se
 {% endhighlight %}
 ![20240221125202](https://i.imgur.com/E37ENMW.png)
 
+## Configure Controller for Microshift Deployments on AWS
+{% highlight bash %}
+ansible-playbook  microshift-ansible-aws-roles.yaml  -e "@secret-vars-microshift-ansible-aws-roles.yml" -e "@projects/ansible-aws-roles/microshift-ansible-aws-vars.yaml"  -vvv
+{% endhighlight %}
+![20240221124855](https://i.imgur.com/3PUdxRK.png)
 
 ## Configure Automation Hub
 
