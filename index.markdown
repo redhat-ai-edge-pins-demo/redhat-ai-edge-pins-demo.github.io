@@ -6,8 +6,6 @@ description: "The goal of this architecture is to streamline the process from mo
 image: /path/to/redhat-image.jpg  # Path to a redhat image (optional)
 ---
 
-<!-- Hero Section -->
-# Red Hat AI Model Deployment Workflow from Core to Edge
 
 ![20240222140117](https://i.imgur.com/41zi47h.png)
 
